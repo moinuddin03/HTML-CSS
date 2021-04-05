@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+
+<form action="Form.html" method="POST" target="_blank">   <!--target="_blank": This tag use for open new tab -->
+	<label for="Fname">First name:</label>
+	<input type="text" name="Fname"><br><br>
+
+	<label for="Lname">Last Name:</label>
+	<input type="text" name="Lname"><br><br>
+
+	<label for="color" name="color">Color:</label>
+	<input type="color" name="color"><br><br>
+
+	<label for="date" name="date">Date:</label>
+	<input type="date" name="date"><br><br>
+
+	<label for="datetime-local" name="datetime-local">DateTime-Local:</label>
+	<input type="datetime-local" name="datetime-local"><br><br>
+
+	<label for="email">Email:</label>
+	<input type="email" name="email"><br><br>
+
+    <label for="file">File:</label>
+	<input type="file" name="file"><br><br>
+
+    <label for="hidden">Hidden:</label>
+	<input type="hidden" name="hidden"><br><br>
+
+	<label for="image">Image:</label>
+	<input type="image" name="image"><br><br>
+
+	<label for="month">Month:</label>
+	<input type="month" name="month"><br><br>
+
+	<label for="number">Number:</label>
+	<input type="number" name="number"><br><br>
+
+	<label for="password">Password:</label>
+	<input type="password" name="password"><br><br>
+	
+    <label for="range">Range:</label>
+	<input type="range" name="range"><br><br>
+
+	<label for="reset">Reset:</label>
+	<input type="reset" name="reset"><br><br>
+
+    <label for="search">Search:</label>
+	<input type="search" name="search"><br><br>
+
+    <label for="tel">Tel:</label>
+	<input type="tel" name="tel"><br><br>
+
+	<label for="time">Time:</label>
+	<input type="time" name="time"><br><br>
+
+	<label for="url">Url:</label>
+	<input type="url" name="url"><br><br>
+
+	<label for="week">Week:</label>
+	<input type="week" name="week"><br><br>
+
+	<label for="textarea">Textarea:</label>
+	<textarea name="textarea" rows="10" cols="40"></textarea><br><br>
+
+	<input type="submit" name="submit" value="SUBMIT">
+    <br><br><br>
+</form>
+
+<!-- Radio Tag -->
+<form>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+</form>
+
+<br><br><br>
+
+<!-- CheckBox Tag -->
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+
+<br><br>
+
+<!-- Choose a items -->
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">           <!-- multiple: This tag use for select multiple items -->  
+  <option value="volvo">Volvo</option>   <!-- Size: This tag use for set size -->
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+</body>
+</html>
