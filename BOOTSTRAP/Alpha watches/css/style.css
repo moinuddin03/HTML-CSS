@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family:Cambria Math!important;
+}
+/*body{
+background-image:url('../img/background.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}*/
+/*---------- Loader Start ----------*/
+#loading{
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #000
+url('../img/Spinner-1s-200px.gif')
+no-repeat center;
+z-index: 9999;
+}
+/*---------- Loader End ----------*/
+/*---------- Navbar Start ----------*/
+.dropdown:hover>.dropdown-menu{
+display: block;
+}
+.navbar-light .navbar-brand {
+color: #ff9c9c;
+font-size: 30px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:hover{
+	color: #fff;
+	transition: 3.0s;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+color: #fff;
+}
+.navbar-toggler {
+background: #fff;
+}
+.navbar-nav {
+text-align: center;
+}
+.nav-link {
+padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+color: #fff;
+}
+.navbar-toggler {
+padding: 1px 5px;
+font-size: 18px;
+line-height: 0.3;
+}
+.dropdown-menu a{
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+color: #ff9c9c;
+border-bottom: 2px solid #ff9c9c;
+}
+.dropdown-menu a:hover{
+	color: #ff9c9c;
+	background-color: transparent;
+	border-bottom: 2px solid #ff9c9c;
+}
+/*---------- Navbar End ----------*/
+/*---------- Carousel Start----------*/
+.carousel-item {
+height: 100vh;
+min-height: 300px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.carousel-caption {
+bottom: 270px;
+}
+.carousel-caption h5 {
+color: #ff9c9c;	
+font-size: 60px;
+font-style: italic;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-top: 25px;
+}
+.carousel-caption p {
+width: 75%;
+margin: auto;
+font-size: 18px;
+line-height: 1.9;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+/*---------- Carousel End  ----------*/

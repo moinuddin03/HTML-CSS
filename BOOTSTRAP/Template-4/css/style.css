@@ -1,0 +1,201 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: all;
+}
+h3 {
+  display: flex;
+  flex-direction: row;
+}
+h3:before, h3:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #000;
+  margin: auto;
+}
+h3:before {
+  margin-right: 10px
+}
+h3:after {
+  margin-left: 10px
+}
+/*----------------Nav bar css start-------------------*/
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+.nav-item a:hover{
+	background-color:#3b4045;
+    color:white;
+}
+.dropdown-menu a:hover{
+	background-color:#343a40;
+	color: white;
+}
+.animation{
+	animation: TELESHOPING 1s infinite;
+}
+@keyframes TELESHOPING{
+      0%{color:#FF8800;}
+      /*25%{color: blue;}*/
+      50%{color:#343a40;}
+      /*75%{color: yellow;}*/
+      100%{color: #fff;}
+}
+/*----------------Nav bar css end-------------------*/
+
+/*--------------Slider css Start-----------------*/
+.carousel-inner img {
+    width: 100%;
+    height: 70vh;
+}
+
+/*.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}*/
+
+/*--------------Slider css End-------------------*/
+
+/*--------------header extra-div css Start----------------*/
+.header-extradiv{
+	width: 100%;
+	height: auto;
+	margin-left:100px 0;
+	margin-top:50px;
+}
+.extra-div{
+	background:#fff;
+	border: medium none;
+	padding: 20px;
+	border-radius: 3px;
+	transition: 0.3s;
+
+}
+.extra-div:hover{
+     box-shadow: 10 0 0px 0 rgba(0,0,0,0.3);
+     transform: scale(1.05);
+}
+/*-----------header extra-div css End-------------------*/
+
+/*-----------Star Product css Start-------------------*/
+.container-p {
+	background:#fff;
+	border: medium none;
+	padding: 10px;
+	border-radius: 3px;
+	transition: 0.3s;
+
+}
+.container-p:hover{
+     box-shadow: 10 0 0px 0 rgba(0,0,0,0.3);
+     transform: scale(1.05);
+}     
+/*-----------Star Product css End------------------*/
+
+/*-----------Accessories css Start-----------------*/
+.Accessories{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+
+}
+.Box{
+	text-align: center;
+	height: 250px;
+	width: 500px;
+	margin: 30px -70px;
+}
+
+.Box a{
+  position: relative;
+  
+}
+.Box a img{
+	width: 300px;
+	height: 300px;
+	margin-top: -20px;
+
+}
+
+/*-----------Accessories css End--------------------*/
+
+/*----------Product reviews css start---------------*/
+@media (max-width:  567px){
+	.product{
+		margin-top:700px; 
+	}
+}
+
+@media (max-width: 768px){
+	.product{
+		margin-top: 800px;
+	}
+}
+/*---------Product reviews css End---------------*/
+.product-r {
+	background:#fff;
+	border: medium none;
+	padding: 10px;
+	border-radius: 3px;
+	transition: 0.3s;
+
+}
+.product-r:hover{
+     box-shadow: 10 0 0px 0 rgba(0,0,0,0.3);
+     transform: scale(1.05);
+}
+
+/*---------Populer items css Start------------------*/
+/*populer*/
+
+
+/*items*/
+
+/*---------Populer items css End------------------*/
+
+
+
+
+
+/*---------Videos Css Start-------------------*/
+
+/*videos css start*/
+
+/*videos css end*/
+
+/*---------Videos Css End---------------------*/
+
+
+/*---------Footer css start-----------------------*/
+.list-unstyled li a{
+	color: white;
+}
+
+/*---------Footer css end----------------------*/
+  
+/*----------Scroll Top css start---------------------------*/
+#myBtn {
+  display: none;
+  position: fixed; 
+  bottom: 20px;
+  right: 30px; 
+  z-index: 99;
+  border: none; 
+  outline: none; 
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color:#FF8800;
+}
+
+/*---------Scroll Top css End---------------------------*/

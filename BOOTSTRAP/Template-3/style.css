@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+li{list-style: none;}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image:url('bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.navbar{
+	background-image: url('bg1.jpg');
+}
+.nav-item a{
+	color:#fff!important;
+	font-weight: bold;
+}
+.nav-item a:hover{
+	background-color:orange;
+	color:;
+	border-radius: 10px;
+}
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.wemake{
+	font-size: 80px;
+}
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 4;
+	text-align: center;
+
+}
+.header-buttons a:hover{
+	color:black;
+	background: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.brand{
+	animation: logomaker 1s infinite;
+}
+@keyframes logomaker{
+	0%{color:red;}
+	20%{color: purple;}
+	50%{color: darkorange;}
+	75%{color:cyan;}
+	100%{color:deeppink;}
+}
+
+/*................Portfolio.............*/
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	margin-top: 20px;
+}
+/*...............About.............*/
+.about{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.text{
+	font-size:20px;
+}
+/*.................Services............*/
+.services{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.services h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	margin-top: 20px;
+}
+/*...................Team.................*/
+.ourteam{
+  
+	height: 700px;
+	width: 100%;
+	padding: 100px 0px 50px;	
+}
+.ourteam h1{
+   font-size: 50px;
+	font-weight: bold;
+}
+.teamsetting{
+	margin-top: 50px;
+}
+/*..................Contact..............*/
+.contact-form{
+	background:rgba(0,0,0,.6);
+	color: white; 
+	margin-top: 100px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px 3px grey;
+}
+hr{
+	background: white;
+}
+/*.....................Media Query*/
+@media(max-width: 750px){
+	.header{
+	width: 100%;
+	height: 100vh;
+	background-image:url('bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+    }
+	.nav-item{
+		text-align: center!important;
+	}
+	.nav-item a:hover{
+	background-color:orange;
+	border-radius: 10px;
+	width: 100px;
+	display: inline-block;
+    }
+	.center-div{
+		margin-top:0px;
+	}
+	.wemake{
+		font-size: 40px;
+	}
+	.title{
+		font-size: 30px;
+	}
+	.services{
+		margin-top: 1300px;
+	}
+	.card-img-top{
+		height: 200px;
+		width: 100px;
+	}
+	.container h1{
+		font-size: 30px;
+	}
+	.portfolio{
+		height: 750px;
+	}
+	.card-img-top{
+		height: 180px;
+		width: 180px;	
+	}
+	.ourteam{
+		margin-top:400px;
+		height: px;
+	}
+	.contact{
+		margin-top:300px;
+	}
+	
+}
